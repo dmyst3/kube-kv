@@ -22,7 +22,6 @@ metadata:
   name: example-secret
   labels: 
     app_name: myTest-Config
-type: Opaque
 data:
   username: YWRtaW4K
   password: dDBwLVNlY3JldAo=
