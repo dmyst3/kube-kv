@@ -1,7 +1,7 @@
 ---
 #My Config
-kind: ConfigMap 
 apiVersion: v1 
+kind: ConfigMap 
 metadata:
   name: example-configmap
   labels: 
@@ -22,7 +22,6 @@ metadata:
   name: example-secret
   labels: 
     app_name: myTest-Config
-type: kubernetes.io/basic-auth
-stringData:
+data:
   username: admin
   password: t0p-Secret
