@@ -1,8 +1,8 @@
 kind: ConfigMap 
 apiVersion: v1 
-Labels: myTest-Config
 metadata:
-  name: example-configmap 
+  name: example-configmap
+  labels: myTest-Config
 data:
   APP_ENV: DEV
   APP_URL: https://somewhere.com
