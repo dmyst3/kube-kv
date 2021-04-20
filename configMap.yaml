@@ -1,0 +1,10 @@
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: example-configmap 
+data:
+  APP_ENV: DEV
+  APP_URL: https://somewhere.com
+  APP_DB_NAME: MASTER
+  APP_DB_IP: 127.0.0.0
+  APP_ROOT: /var
